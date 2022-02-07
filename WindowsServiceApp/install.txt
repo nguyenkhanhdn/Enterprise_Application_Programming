@@ -1,0 +1,10 @@
+﻿Cài đặt Windows Services
+
+installutil WindowsServiceApp.exe
+
+installutil -u WindowsServiceApp.exe
+
+
+Tạo proxy object để sử dụng phía client
+
+svcutil http://localhost:8000/ServiceModelSamples/service
