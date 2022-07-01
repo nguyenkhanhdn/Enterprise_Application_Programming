@@ -15,12 +15,12 @@ namespace AzureStorageDemo
         {
 
             string connectionString = ConfigurationManager.AppSettings["StorageConnection"];
-            BlobContainerClient container = new BlobContainerClient(connectionString, "images-backup1");
+            BlobContainerClient container = new BlobContainerClient(connectionString, "images-backup2");
             container.CreateIfNotExists(PublicAccessType.Blob);
 
             //lines modified
             var blockBlob = container.GetBlobClient("pdf");
-            using (var fileStream = System.IO.File.OpenRead(@"C:\Session1.pdf"))
+            using (var fileStream = System.IO.File.OpenRead(@"C:\Temps\Session7.pdf"))
             {
                 blockBlob.Upload(fileStream);
             }

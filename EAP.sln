@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPICORS_API", "WebAPICOR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPICORS_Client", "WebAPICORS_Client\WebAPICORS_Client.csproj", "{755B19AD-25B6-4537-A34C-6E67D27D1A45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfBankServices", "WcfBankServices\WcfBankServices.csproj", "{7629F461-8EED-45D6-BBDC-ED73958E4CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +116,10 @@ Global
 		{755B19AD-25B6-4537-A34C-6E67D27D1A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{755B19AD-25B6-4537-A34C-6E67D27D1A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{755B19AD-25B6-4537-A34C-6E67D27D1A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7629F461-8EED-45D6-BBDC-ED73958E4CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7629F461-8EED-45D6-BBDC-ED73958E4CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7629F461-8EED-45D6-BBDC-ED73958E4CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7629F461-8EED-45D6-BBDC-ED73958E4CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

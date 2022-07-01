@@ -50,11 +50,11 @@ namespace AzureQueueStorage
             //queue.DeleteMessage(message);
 
 
-            foreach (CloudQueueMessage message2 in queue.GetMessages(20, TimeSpan.FromMinutes(5)))
-            {
-                // Process all messages in less than 5 minutes, deleting each message after processing.
-                queue.DeleteMessage(message2);
-            }
+            //foreach (CloudQueueMessage message2 in queue.GetMessages(20, TimeSpan.FromMinutes(5)))
+            //{
+            //    // Process all messages in less than 5 minutes, deleting each message after processing.
+            //    queue.DeleteMessage(message2);
+            //}
 
             Console.WriteLine("Removing message from queue");
             Console.ReadLine();
